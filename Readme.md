@@ -23,15 +23,15 @@ Visual Studio 2017/2019
 
 - VirtualCashCard
 
-I have implemented a simple cash card. There is no credit limit or other features.
-There is only one way to create a new card is CreateCard factory method. 
-The CreateCard method creates a card with CardNumber, Pin and initialBalance. 
-CardNumber and Pin are not accessible. Clients have to know CardNumber and Pin o use the virtual card.
-Balance is only returning after Popup and Withdraw operations. 
-GetBalance method can be added into the interface.
+* I have implemented a simple cash card. There is no credit limit or other features. 
+* There is only one way to create a new card is CreateCard factory method. 
+* The CreateCard method creates a card with CardNumber, Pin and initialBalance. 
+* CardNumber and Pin are not accessible. Clients have to know CardNumber and Pin to use the virtual card.
+* Balance is only returning after Popup and Withdraw operations. 
+* GetBalance method can be added into the interface.
 
 **CreateCard Method**
-We have to thinks about this method. I will continue to work in the dev branch. 
+I want to thinks about this method. I will continue to work in the dev branch. 
 This implementation is ok. But if we want to implement a new type of cards this method would be a bottleneck for our solution. ( such as loyalty cards or point cards), 
 
 
